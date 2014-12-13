@@ -1,0 +1,1097 @@
+[20:08:49] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[20:08:50] [main/INFO] [FML/]: Forge Mod Loader version 8.0.10.1249 for Minecraft 1.8 loading
+[20:08:50] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_25, running on Mac OS X:x86_64:10.10.1, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre
+[20:08:50] [main/DEBUG] [FML/]: Java classpath at launch is /Users/Scott/Desktop/Minestore/modding/Thaumic_Tanks/bin:/Users/Scott/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1249-1.8/snapshot_nodoc/20140930/forgeSrc-1.8-11.14.0.1249-1.8.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-xml_2.11/1.0.2/7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0/scala-xml_2.11-1.0.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.5.5/40f178ca052bbe45681c529c40cae332a43cb3d5/realms-1.5.5.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/Users/Scott/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1249-1.8/start
+[20:08:50] [main/DEBUG] [FML/]: Java library path at launch is /Users/Scott/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/Scott/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.8
+[20:08:50] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[20:08:50] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[20:08:50] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[20:08:50] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[20:08:50] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[20:08:50] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[20:08:50] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[20:08:50] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[20:08:50] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/Scott/Desktop/Minestore/modding/Thaumic_Tanks/eclipse/.
+[20:08:50] [main/DEBUG] [FML/]: Discovering coremods
+[20:08:50] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.GradleStartCommon$GradleStartTweaker
+[20:08:50] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[20:08:50] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[20:08:50] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:08:50] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:08:50] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:08:50] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:08:50] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:08:50] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[20:08:50] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.MarkerTransformer
+[20:08:51] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[20:08:51] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[20:08:51] [main/DEBUG] [FML/]: Injection complete
+[20:08:51] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[20:08:51] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[20:08:51] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[20:08:56] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[20:08:56] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[20:08:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:08:56] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[20:08:56] [main/DEBUG] [FML/]: Injection complete
+[20:08:56] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[20:08:56] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[20:08:56] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[20:08:56] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:08:56] [main/DEBUG] [FML/]: Loaded 49 rules from AccessTransformer config file fml_at.cfg
+
+[20:08:56] [main/DEBUG] [FML/]: Loaded 84 rules from AccessTransformer config file forge_at.cfg
+
+[20:08:56] [main/DEBUG] [FML/]: Validating minecraft
+[20:08:58] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[20:08:58] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:08:58] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:08:58] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:air 0 net.minecraft.block.BlockAir@6d5620ce (req. id 0)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone 1 net.minecraft.block.BlockStone@b86de0d (req. id 1)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:grass 2 net.minecraft.block.BlockGrass@51bf5add (req. id 2)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:dirt 3 net.minecraft.block.BlockDirt@456d6c1e (req. id 3)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:cobblestone 4 net.minecraft.block.Block@928763c (req. id 4)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:planks 5 net.minecraft.block.BlockPlanks@5e17553a (req. id 5)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:sapling 6 net.minecraft.block.BlockSapling@3336e6b6 (req. id 6)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:bedrock 7 net.minecraft.block.Block@2205a05d (req. id 7)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:flowing_water 8 net.minecraft.block.BlockDynamicLiquid@3fce8fd9 (req. id 8)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:water 9 net.minecraft.block.BlockStaticLiquid@495ee280 (req. id 9)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:flowing_lava 10 net.minecraft.block.BlockDynamicLiquid@7a3793c7 (req. id 10)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:lava 11 net.minecraft.block.BlockStaticLiquid@4d518b32 (req. id 11)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:sand 12 net.minecraft.block.BlockSand@28b46423 (req. id 12)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:gravel 13 net.minecraft.block.BlockGravel@6b6776cb (req. id 13)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_ore 14 net.minecraft.block.BlockOre@53b7f657 (req. id 14)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_ore 15 net.minecraft.block.BlockOre@5a37d3ed (req. id 15)
+[20:09:18] [Client thread/TRACE] [FML/]: Registry add: minecraft:coal_ore 16 net.minecraft.block.BlockOre@4a3631f8 (req. id 16)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:log 17 net.minecraft.block.BlockOldLog@127a7a2e (req. id 17)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:leaves 18 net.minecraft.block.BlockOldLeaf@11bb571c (req. id 18)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:sponge 19 net.minecraft.block.BlockSponge@55cf0d14 (req. id 19)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:glass 20 net.minecraft.block.BlockGlass@3eb81efb (req. id 20)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:lapis_ore 21 net.minecraft.block.BlockOre@6cdba6dc (req. id 21)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:lapis_block 22 net.minecraft.block.BlockCompressed@78aa1f72 (req. id 22)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:dispenser 23 net.minecraft.block.BlockDispenser@418c5a9c (req. id 23)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:sandstone 24 net.minecraft.block.BlockSandStone@6c0d7c83 (req. id 24)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:noteblock 25 net.minecraft.block.BlockNote@41294f8 (req. id 25)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:bed 26 net.minecraft.block.BlockBed@7fbdb894 (req. id 26)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_rail 27 net.minecraft.block.BlockRailPowered@79dc5318 (req. id 27)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:detector_rail 28 net.minecraft.block.BlockRailDetector@60410cd (req. id 28)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:sticky_piston 29 net.minecraft.block.BlockPistonBase@3f57bcad (req. id 29)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:web 30 net.minecraft.block.BlockWeb@5ddcc487 (req. id 30)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:tallgrass 31 net.minecraft.block.BlockTallGrass@46b61c56 (req. id 31)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:deadbush 32 net.minecraft.block.BlockDeadBush@413f69cc (req. id 32)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:piston 33 net.minecraft.block.BlockPistonBase@1b75c2e3 (req. id 33)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:piston_head 34 net.minecraft.block.BlockPistonExtension@3e6104fc (req. id 34)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:wool 35 net.minecraft.block.BlockColored@67545b57 (req. id 35)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:piston_extension 36 net.minecraft.block.BlockPistonMoving@7a362b6b (req. id 36)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:yellow_flower 37 net.minecraft.block.BlockYellowFlower@3b96c42e (req. id 37)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_flower 38 net.minecraft.block.BlockRedFlower@3cdf2c61 (req. id 38)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom 39 net.minecraft.block.BlockMushroom@32c4e8b2 (req. id 39)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom 40 net.minecraft.block.BlockMushroom@764faa6 (req. id 40)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_block 41 net.minecraft.block.BlockCompressed@598bd2ba (req. id 41)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_block 42 net.minecraft.block.BlockCompressed@7ae42ce3 (req. id 42)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:double_stone_slab 43 net.minecraft.block.BlockDoubleStoneSlab@ab7395e (req. id 43)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_slab 44 net.minecraft.block.BlockHalfStoneSlab@38aa816f (req. id 44)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:brick_block 45 net.minecraft.block.Block@5812f68b (req. id 45)
+[20:09:19] [Client thread/TRACE] [FML/]: Registry add: minecraft:tnt 46 net.minecraft.block.BlockTNT@34158c08 (req. id 46)
+[20:09:20] [Client thread/TRACE] [FML/]: Registry add: minecraft:bookshelf 47 net.minecraft.block.BlockBookshelf@21fd5faa (req. id 47)
+[20:09:20] [Client thread/TRACE] [FML/]: Registry add: minecraft:mossy_cobblestone 48 net.minecraft.block.Block@5460cf3a (req. id 48)
+[20:09:20] [Client thread/TRACE] [FML/]: Registry add: minecraft:obsidian 49 net.minecraft.block.BlockObsidian@27d4a09 (req. id 49)
+[20:09:20] [Client thread/TRACE] [FML/]: Registry add: minecraft:torch 50 net.minecraft.block.BlockTorch@5a1de7fb (req. id 50)
+[20:09:28] [Client thread/TRACE] [FML/]: Registry add: minecraft:fire 51 net.minecraft.block.BlockFire@155d1021 (req. id 51)
+[20:09:28] [Client thread/TRACE] [FML/]: Registry add: minecraft:mob_spawner 52 net.minecraft.block.BlockMobSpawner@397ef2 (req. id 52)
+[20:09:28] [Client thread/TRACE] [FML/]: Registry add: minecraft:oak_stairs 53 net.minecraft.block.BlockStairs@2b2f5fcf (req. id 53)
+[20:09:28] [Client thread/TRACE] [FML/]: Registry add: minecraft:chest 54 net.minecraft.block.BlockChest@5300cac (req. id 54)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_wire 55 net.minecraft.block.BlockRedstoneWire@73c9e8e8 (req. id 55)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_ore 56 net.minecraft.block.BlockOre@15efda6c (req. id 56)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_block 57 net.minecraft.block.BlockCompressed@33f2df51 (req. id 57)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:crafting_table 58 net.minecraft.block.BlockWorkbench@404eca05 (req. id 58)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:wheat 59 net.minecraft.block.BlockCrops@31e2232f (req. id 59)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:farmland 60 net.minecraft.block.BlockFarmland@559cedee (req. id 60)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:furnace 61 net.minecraft.block.BlockFurnace@3a790e40 (req. id 61)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_furnace 62 net.minecraft.block.BlockFurnace@6fbb4061 (req. id 62)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:standing_sign 63 net.minecraft.block.BlockStandingSign@3762c4fc (req. id 63)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_door 64 net.minecraft.block.BlockDoor@36aa52d2 (req. id 64)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:ladder 65 net.minecraft.block.BlockLadder@68a78f3c (req. id 65)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:rail 66 net.minecraft.block.BlockRail@5f96f6a2 (req. id 66)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_stairs 67 net.minecraft.block.BlockStairs@48eb001a (req. id 67)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:wall_sign 68 net.minecraft.block.BlockWallSign@3e7b65d7 (req. id 68)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:lever 69 net.minecraft.block.BlockLever@44d64d4e (req. id 69)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_pressure_plate 70 net.minecraft.block.BlockPressurePlate@7c52fc81 (req. id 70)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_door 71 net.minecraft.block.BlockDoor@766a49c7 (req. id 71)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_pressure_plate 72 net.minecraft.block.BlockPressurePlate@2e766822 (req. id 72)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_ore 73 net.minecraft.block.BlockRedstoneOre@10a98392 (req. id 73)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_redstone_ore 74 net.minecraft.block.BlockRedstoneOre@5f174dd2 (req. id 74)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:unlit_redstone_torch 75 net.minecraft.block.BlockRedstoneTorch@3d90eeb3 (req. id 75)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_torch 76 net.minecraft.block.BlockRedstoneTorch@2f894ad9 (req. id 76)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_button 77 net.minecraft.block.BlockButtonStone@56382bc9 (req. id 77)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:snow_layer 78 net.minecraft.block.BlockSnow@542f6803 (req. id 78)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:ice 79 net.minecraft.block.BlockIce@40230eb9 (req. id 79)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:snow 80 net.minecraft.block.BlockSnowBlock@2a39aa2b (req. id 80)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:cactus 81 net.minecraft.block.BlockCactus@2fd954f (req. id 81)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:clay 82 net.minecraft.block.BlockClay@60dd0587 (req. id 82)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:reeds 83 net.minecraft.block.BlockReed@4976085 (req. id 83)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:jukebox 84 net.minecraft.block.BlockJukebox@58d6e55a (req. id 84)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:fence 85 net.minecraft.block.BlockFence@47e51549 (req. id 85)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:pumpkin 86 net.minecraft.block.BlockPumpkin@1084f78c (req. id 86)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:netherrack 87 net.minecraft.block.BlockNetherrack@27be17c8 (req. id 87)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:soul_sand 88 net.minecraft.block.BlockSoulSand@1e95b653 (req. id 88)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:glowstone 89 net.minecraft.block.BlockGlowstone@3df1a1ac (req. id 89)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:portal 90 net.minecraft.block.BlockPortal@203d1d93 (req. id 90)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_pumpkin 91 net.minecraft.block.BlockPumpkin@7d979d34 (req. id 91)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:cake 92 net.minecraft.block.BlockCake@1e0fdb2f (req. id 92)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:unpowered_repeater 93 net.minecraft.block.BlockRedstoneRepeater@66deec87 (req. id 93)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:powered_repeater 94 net.minecraft.block.BlockRedstoneRepeater@3a1706e1 (req. id 94)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_glass 95 net.minecraft.block.BlockStainedGlass@40fa8766 (req. id 95)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:trapdoor 96 net.minecraft.block.BlockTrapDoor@6824b913 (req. id 96)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:monster_egg 97 net.minecraft.block.BlockSilverfish@1015a4b9 (req. id 97)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:stonebrick 98 net.minecraft.block.BlockStoneBrick@7e83992 (req. id 98)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom_block 99 net.minecraft.block.BlockHugeMushroom@4eb9f2af (req. id 99)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom_block 100 net.minecraft.block.BlockHugeMushroom@44fdce3c (req. id 100)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_bars 101 net.minecraft.block.BlockPane@1e977098 (req. id 101)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:glass_pane 102 net.minecraft.block.BlockPane@7f4701b1 (req. id 102)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:melon_block 103 net.minecraft.block.BlockMelon@76fe6cdc (req. id 103)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:pumpkin_stem 104 net.minecraft.block.BlockStem@5f36c8e3 (req. id 104)
+[20:09:29] [Client thread/TRACE] [FML/]: Registry add: minecraft:melon_stem 105 net.minecraft.block.BlockStem@d3f4505 (req. id 105)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:vine 106 net.minecraft.block.BlockVine@46911148 (req. id 106)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:fence_gate 107 net.minecraft.block.BlockFenceGate@14924f41 (req. id 107)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:brick_stairs 108 net.minecraft.block.BlockStairs@2f10f633 (req. id 108)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_brick_stairs 109 net.minecraft.block.BlockStairs@7cfac39f (req. id 109)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:mycelium 110 net.minecraft.block.BlockMycelium@32eae6f2 (req. id 110)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:waterlily 111 net.minecraft.block.BlockLilyPad@483b0690 (req. id 111)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick 112 net.minecraft.block.BlockNetherBrick@4debbf0 (req. id 112)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick_fence 113 net.minecraft.block.BlockFence@60e06f7d (req. id 113)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick_stairs 114 net.minecraft.block.BlockStairs@787508ca (req. id 114)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_wart 115 net.minecraft.block.BlockNetherWart@d4df0e (req. id 115)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:enchanting_table 116 net.minecraft.block.BlockEnchantmentTable@12c0c0b3 (req. id 116)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:brewing_stand 117 net.minecraft.block.BlockBrewingStand@2abbd0d9 (req. id 117)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:cauldron 118 net.minecraft.block.BlockCauldron@1a07bf6 (req. id 118)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:end_portal 119 net.minecraft.block.BlockEndPortal@1b9d9a2b (req. id 119)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:end_portal_frame 120 net.minecraft.block.BlockEndPortalFrame@fe87ddd (req. id 120)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:end_stone 121 net.minecraft.block.Block@7f9e8421 (req. id 121)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:dragon_egg 122 net.minecraft.block.BlockDragonEgg@45545e7a (req. id 122)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_lamp 123 net.minecraft.block.BlockRedstoneLight@7e62cfa3 (req. id 123)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_redstone_lamp 124 net.minecraft.block.BlockRedstoneLight@383c3eb3 (req. id 124)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:double_wooden_slab 125 net.minecraft.block.BlockDoubleWoodSlab@5792c08c (req. id 125)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_slab 126 net.minecraft.block.BlockHalfWoodSlab@5e13f156 (req. id 126)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:cocoa 127 net.minecraft.block.BlockCocoa@59939293 (req. id 127)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:sandstone_stairs 128 net.minecraft.block.BlockStairs@568750b7 (req. id 128)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:emerald_ore 129 net.minecraft.block.BlockOre@67b355c8 (req. id 129)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:ender_chest 130 net.minecraft.block.BlockEnderChest@3cd26422 (req. id 130)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:tripwire_hook 131 net.minecraft.block.BlockTripWireHook@65bb6275 (req. id 131)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:tripwire 132 net.minecraft.block.BlockTripWire@1c52552f (req. id 132)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:emerald_block 133 net.minecraft.block.BlockCompressed@7bc6935c (req. id 133)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_stairs 134 net.minecraft.block.BlockStairs@4cc7d00d (req. id 134)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_stairs 135 net.minecraft.block.BlockStairs@43cb5f38 (req. id 135)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_stairs 136 net.minecraft.block.BlockStairs@f557c37 (req. id 136)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:command_block 137 net.minecraft.block.BlockCommandBlock@5a1f778 (req. id 137)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:beacon 138 net.minecraft.block.BlockBeacon@4a50d04a (req. id 138)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:cobblestone_wall 139 net.minecraft.block.BlockWall@76ff68c5 (req. id 139)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:flower_pot 140 net.minecraft.block.BlockFlowerPot@72543547 (req. id 140)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:carrots 141 net.minecraft.block.BlockCarrot@64b0d1fa (req. id 141)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:potatoes 142 net.minecraft.block.BlockPotato@52d3fafd (req. id 142)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_button 143 net.minecraft.block.BlockButtonWood@61cda923 (req. id 143)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:skull 144 net.minecraft.block.BlockSkull@4a9a878 (req. id 144)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:anvil 145 net.minecraft.block.BlockAnvil@7f42e06e (req. id 145)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:trapped_chest 146 net.minecraft.block.BlockChest@4db77402 (req. id 146)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:light_weighted_pressure_plate 147 net.minecraft.block.BlockPressurePlateWeighted@1bbddada (req. id 147)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:heavy_weighted_pressure_plate 148 net.minecraft.block.BlockPressurePlateWeighted@22da2fe6 (req. id 148)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:unpowered_comparator 149 net.minecraft.block.BlockRedstoneComparator@7f73ce28 (req. id 149)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:powered_comparator 150 net.minecraft.block.BlockRedstoneComparator@4d93f75b (req. id 150)
+[20:09:30] [Client thread/TRACE] [FML/]: Registry add: minecraft:daylight_detector 151 net.minecraft.block.BlockDaylightDetector@69f2cb04 (req. id 151)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_block 152 net.minecraft.block.BlockCompressedPowered@3f8dfe74 (req. id 152)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_ore 153 net.minecraft.block.BlockOre@1a950fdd (req. id 153)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:hopper 154 net.minecraft.block.BlockHopper@364fd4ae (req. id 154)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_block 155 net.minecraft.block.BlockQuartz@3f9b7fe1 (req. id 155)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_stairs 156 net.minecraft.block.BlockStairs@ea7a4c3 (req. id 156)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:activator_rail 157 net.minecraft.block.BlockRailPowered@2ce03e86 (req. id 157)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:dropper 158 net.minecraft.block.BlockDropper@23ca36d (req. id 158)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_hardened_clay 159 net.minecraft.block.BlockColored@42e4e589 (req. id 159)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_glass_pane 160 net.minecraft.block.BlockStainedGlassPane@aa61e4e (req. id 160)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:leaves2 161 net.minecraft.block.BlockNewLeaf@2c18a3ea (req. id 161)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:log2 162 net.minecraft.block.BlockNewLog@30bbcf91 (req. id 162)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@6097fca9 (req. id 163)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_stairs 164 net.minecraft.block.BlockStairs@63f40ca0 (req. id 164)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:slime 165 net.minecraft.block.BlockSlime@6b63abdc (req. id 165)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:barrier 166 net.minecraft.block.BlockBarrier@2f995afc (req. id 166)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_trapdoor 167 net.minecraft.block.BlockTrapDoor@9df564f (req. id 167)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:prismarine 168 net.minecraft.block.BlockPrismarine@3375ebd3 (req. id 168)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:sea_lantern 169 net.minecraft.block.BlockSeaLantern@724bf25f (req. id 169)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:hay_block 170 net.minecraft.block.BlockHay@5460edd3 (req. id 170)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:carpet 171 net.minecraft.block.BlockCarpet@1c046c92 (req. id 171)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:hardened_clay 172 net.minecraft.block.BlockHardenedClay@2f3928ac (req. id 172)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:coal_block 173 net.minecraft.block.Block@31834a2b (req. id 173)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:packed_ice 174 net.minecraft.block.BlockPackedIce@9cfc77 (req. id 174)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:double_plant 175 net.minecraft.block.BlockDoublePlant@217235f5 (req. id 175)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:standing_banner 176 net.minecraft.block.BlockBanner$BlockBannerStanding@1d6a8386 (req. id 176)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:wall_banner 177 net.minecraft.block.BlockBanner$BlockBannerHanging@110e9982 (req. id 177)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:daylight_detector_inverted 178 net.minecraft.block.BlockDaylightDetector@59018eed (req. id 178)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_sandstone 179 net.minecraft.block.BlockRedSandstone@243bf087 (req. id 179)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_sandstone_stairs 180 net.minecraft.block.BlockStairs@781aff8b (req. id 180)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:double_stone_slab2 181 net.minecraft.block.BlockDoubleStoneSlabNew@7db40fd5 (req. id 181)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_slab2 182 net.minecraft.block.BlockHalfStoneSlabNew@6ffd4c0d (req. id 182)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_fence_gate 183 net.minecraft.block.BlockFenceGate@149274cb (req. id 183)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_fence_gate 184 net.minecraft.block.BlockFenceGate@61037caf (req. id 184)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_fence_gate 185 net.minecraft.block.BlockFenceGate@101cf747 (req. id 185)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_fence_gate 186 net.minecraft.block.BlockFenceGate@224c7de4 (req. id 186)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_fence_gate 187 net.minecraft.block.BlockFenceGate@2e0fdbe9 (req. id 187)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_fence 188 net.minecraft.block.BlockFence@632383b9 (req. id 188)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_fence 189 net.minecraft.block.BlockFence@3a0aaaf0 (req. id 189)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_fence 190 net.minecraft.block.BlockFence@764fffa0 (req. id 190)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_fence 191 net.minecraft.block.BlockFence@8840c98 (req. id 191)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_fence 192 net.minecraft.block.BlockFence@5e599100 (req. id 192)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_door 193 net.minecraft.block.BlockDoor@4a864d4d (req. id 193)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_door 194 net.minecraft.block.BlockDoor@1edccfd4 (req. id 194)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_door 195 net.minecraft.block.BlockDoor@240f350a (req. id 195)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_door 196 net.minecraft.block.BlockDoor@3313d477 (req. id 196)
+[20:09:31] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_door 197 net.minecraft.block.BlockDoor@5b02a984 (req. id 197)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStone@b86de0d for ItemBlock net.minecraft.item.ItemMultiTexture@17ff8810 at id 1, original id requested: 1
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone 1 net.minecraft.item.ItemMultiTexture@17ff8810 (req. id 1)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGrass@51bf5add for ItemBlock net.minecraft.item.ItemColored@6c951ada at id 2, original id requested: 2
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:grass 2 net.minecraft.item.ItemColored@6c951ada (req. id 2)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDirt@456d6c1e for ItemBlock net.minecraft.item.ItemMultiTexture@14de1901 at id 3, original id requested: 3
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dirt 3 net.minecraft.item.ItemMultiTexture@14de1901 (req. id 3)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@928763c for ItemBlock net.minecraft.item.ItemBlock@437ed416 at id 4, original id requested: 4
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:cobblestone 4 net.minecraft.item.ItemBlock@437ed416 (req. id 4)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPlanks@5e17553a for ItemBlock net.minecraft.item.ItemMultiTexture@5cfed0ba at id 5, original id requested: 5
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:planks 5 net.minecraft.item.ItemMultiTexture@5cfed0ba (req. id 5)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSapling@3336e6b6 for ItemBlock net.minecraft.item.ItemMultiTexture@26f0141 at id 6, original id requested: 6
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sapling 6 net.minecraft.item.ItemMultiTexture@26f0141 (req. id 6)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@2205a05d for ItemBlock net.minecraft.item.ItemBlock@34136bd1 at id 7, original id requested: 7
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bedrock 7 net.minecraft.item.ItemBlock@34136bd1 (req. id 7)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSand@28b46423 for ItemBlock net.minecraft.item.ItemMultiTexture@6380e9e9 at id 12, original id requested: 12
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sand 12 net.minecraft.item.ItemMultiTexture@6380e9e9 (req. id 12)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGravel@6b6776cb for ItemBlock net.minecraft.item.ItemBlock@350da119 at id 13, original id requested: 13
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:gravel 13 net.minecraft.item.ItemBlock@350da119 (req. id 13)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@53b7f657 for ItemBlock net.minecraft.item.ItemBlock@6a09484c at id 14, original id requested: 14
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_ore 14 net.minecraft.item.ItemBlock@6a09484c (req. id 14)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@5a37d3ed for ItemBlock net.minecraft.item.ItemBlock@34c7232c at id 15, original id requested: 15
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_ore 15 net.minecraft.item.ItemBlock@34c7232c (req. id 15)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@4a3631f8 for ItemBlock net.minecraft.item.ItemBlock@50ec4bfc at id 16, original id requested: 16
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:coal_ore 16 net.minecraft.item.ItemBlock@50ec4bfc (req. id 16)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOldLog@127a7a2e for ItemBlock net.minecraft.item.ItemMultiTexture@1788cb61 at id 17, original id requested: 17
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:log 17 net.minecraft.item.ItemMultiTexture@1788cb61 (req. id 17)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockNewLog@30bbcf91 for ItemBlock net.minecraft.item.ItemMultiTexture@5657967b at id 162, original id requested: 162
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:log2 162 net.minecraft.item.ItemMultiTexture@5657967b (req. id 162)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOldLeaf@11bb571c for ItemBlock net.minecraft.item.ItemLeaves@16cb9989 at id 18, original id requested: 18
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leaves 18 net.minecraft.item.ItemLeaves@16cb9989 (req. id 18)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockNewLeaf@2c18a3ea for ItemBlock net.minecraft.item.ItemLeaves@3dfd6220 at id 161, original id requested: 161
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leaves2 161 net.minecraft.item.ItemLeaves@3dfd6220 (req. id 161)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSponge@55cf0d14 for ItemBlock net.minecraft.item.ItemMultiTexture@71936a92 at id 19, original id requested: 19
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sponge 19 net.minecraft.item.ItemMultiTexture@71936a92 (req. id 19)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGlass@3eb81efb for ItemBlock net.minecraft.item.ItemBlock@61359e87 at id 20, original id requested: 20
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:glass 20 net.minecraft.item.ItemBlock@61359e87 (req. id 20)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@6cdba6dc for ItemBlock net.minecraft.item.ItemBlock@2dc39b53 at id 21, original id requested: 21
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lapis_ore 21 net.minecraft.item.ItemBlock@2dc39b53 (req. id 21)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@78aa1f72 for ItemBlock net.minecraft.item.ItemBlock@45037e16 at id 22, original id requested: 22
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lapis_block 22 net.minecraft.item.ItemBlock@45037e16 (req. id 22)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDispenser@418c5a9c for ItemBlock net.minecraft.item.ItemBlock@2f2e4bde at id 23, original id requested: 23
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dispenser 23 net.minecraft.item.ItemBlock@2f2e4bde (req. id 23)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSandStone@6c0d7c83 for ItemBlock net.minecraft.item.ItemMultiTexture@508ad266 at id 24, original id requested: 24
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sandstone 24 net.minecraft.item.ItemMultiTexture@508ad266 (req. id 24)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockNote@41294f8 for ItemBlock net.minecraft.item.ItemBlock@2313db84 at id 25, original id requested: 25
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:noteblock 25 net.minecraft.item.ItemBlock@2313db84 (req. id 25)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRailPowered@79dc5318 for ItemBlock net.minecraft.item.ItemBlock@216372b7 at id 27, original id requested: 27
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_rail 27 net.minecraft.item.ItemBlock@216372b7 (req. id 27)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRailDetector@60410cd for ItemBlock net.minecraft.item.ItemBlock@14b4340c at id 28, original id requested: 28
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:detector_rail 28 net.minecraft.item.ItemBlock@14b4340c (req. id 28)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPistonBase@3f57bcad for ItemBlock net.minecraft.item.ItemPiston@12abcd1e at id 29, original id requested: 29
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sticky_piston 29 net.minecraft.item.ItemPiston@12abcd1e (req. id 29)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockWeb@5ddcc487 for ItemBlock net.minecraft.item.ItemBlock@2fd9fb34 at id 30, original id requested: 30
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:web 30 net.minecraft.item.ItemBlock@2fd9fb34 (req. id 30)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTallGrass@46b61c56 for ItemBlock net.minecraft.item.ItemColored@1595d2b2 at id 31, original id requested: 31
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:tallgrass 31 net.minecraft.item.ItemColored@1595d2b2 (req. id 31)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDeadBush@413f69cc for ItemBlock net.minecraft.item.ItemBlock@20349058 at id 32, original id requested: 32
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:deadbush 32 net.minecraft.item.ItemBlock@20349058 (req. id 32)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPistonBase@1b75c2e3 for ItemBlock net.minecraft.item.ItemPiston@6cbb7a7d at id 33, original id requested: 33
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:piston 33 net.minecraft.item.ItemPiston@6cbb7a7d (req. id 33)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockColored@67545b57 for ItemBlock net.minecraft.item.ItemCloth@48d739f at id 35, original id requested: 35
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wool 35 net.minecraft.item.ItemCloth@48d739f (req. id 35)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockYellowFlower@3b96c42e for ItemBlock net.minecraft.item.ItemMultiTexture@2dbfa972 at id 37, original id requested: 37
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:yellow_flower 37 net.minecraft.item.ItemMultiTexture@2dbfa972 (req. id 37)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedFlower@3cdf2c61 for ItemBlock net.minecraft.item.ItemMultiTexture@5a592c70 at id 38, original id requested: 38
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_flower 38 net.minecraft.item.ItemMultiTexture@5a592c70 (req. id 38)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMushroom@32c4e8b2 for ItemBlock net.minecraft.item.ItemBlock@252ec02e at id 39, original id requested: 39
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom 39 net.minecraft.item.ItemBlock@252ec02e (req. id 39)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMushroom@764faa6 for ItemBlock net.minecraft.item.ItemBlock@11e9ac24 at id 40, original id requested: 40
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom 40 net.minecraft.item.ItemBlock@11e9ac24 (req. id 40)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@598bd2ba for ItemBlock net.minecraft.item.ItemBlock@74f280bd at id 41, original id requested: 41
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_block 41 net.minecraft.item.ItemBlock@74f280bd (req. id 41)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@7ae42ce3 for ItemBlock net.minecraft.item.ItemBlock@675b18ff at id 42, original id requested: 42
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_block 42 net.minecraft.item.ItemBlock@675b18ff (req. id 42)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHalfStoneSlab@38aa816f for ItemBlock net.minecraft.item.ItemSlab@37c7766e at id 44, original id requested: 44
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_slab 44 net.minecraft.item.ItemSlab@37c7766e (req. id 44)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@5812f68b for ItemBlock net.minecraft.item.ItemBlock@3fb450d7 at id 45, original id requested: 45
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:brick_block 45 net.minecraft.item.ItemBlock@3fb450d7 (req. id 45)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTNT@34158c08 for ItemBlock net.minecraft.item.ItemBlock@4b7ed03e at id 46, original id requested: 46
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:tnt 46 net.minecraft.item.ItemBlock@4b7ed03e (req. id 46)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockBookshelf@21fd5faa for ItemBlock net.minecraft.item.ItemBlock@636985df at id 47, original id requested: 47
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bookshelf 47 net.minecraft.item.ItemBlock@636985df (req. id 47)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@5460cf3a for ItemBlock net.minecraft.item.ItemBlock@6f91fbda at id 48, original id requested: 48
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:mossy_cobblestone 48 net.minecraft.item.ItemBlock@6f91fbda (req. id 48)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockObsidian@27d4a09 for ItemBlock net.minecraft.item.ItemBlock@723e3c17 at id 49, original id requested: 49
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:obsidian 49 net.minecraft.item.ItemBlock@723e3c17 (req. id 49)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTorch@5a1de7fb for ItemBlock net.minecraft.item.ItemBlock@4ffced4e at id 50, original id requested: 50
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:torch 50 net.minecraft.item.ItemBlock@4ffced4e (req. id 50)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMobSpawner@397ef2 for ItemBlock net.minecraft.item.ItemBlock@6094de13 at id 52, original id requested: 52
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:mob_spawner 52 net.minecraft.item.ItemBlock@6094de13 (req. id 52)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@2b2f5fcf for ItemBlock net.minecraft.item.ItemBlock@bbb6f0 at id 53, original id requested: 53
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:oak_stairs 53 net.minecraft.item.ItemBlock@bbb6f0 (req. id 53)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockChest@5300cac for ItemBlock net.minecraft.item.ItemBlock@3e6ec74 at id 54, original id requested: 54
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:chest 54 net.minecraft.item.ItemBlock@3e6ec74 (req. id 54)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@15efda6c for ItemBlock net.minecraft.item.ItemBlock@2bd8f7db at id 56, original id requested: 56
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_ore 56 net.minecraft.item.ItemBlock@2bd8f7db (req. id 56)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@33f2df51 for ItemBlock net.minecraft.item.ItemBlock@6d7ad0f5 at id 57, original id requested: 57
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_block 57 net.minecraft.item.ItemBlock@6d7ad0f5 (req. id 57)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockWorkbench@404eca05 for ItemBlock net.minecraft.item.ItemBlock@30abf79c at id 58, original id requested: 58
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:crafting_table 58 net.minecraft.item.ItemBlock@30abf79c (req. id 58)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFarmland@559cedee for ItemBlock net.minecraft.item.ItemBlock@49a38b1 at id 60, original id requested: 60
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:farmland 60 net.minecraft.item.ItemBlock@49a38b1 (req. id 60)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFurnace@3a790e40 for ItemBlock net.minecraft.item.ItemBlock@681061d6 at id 61, original id requested: 61
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:furnace 61 net.minecraft.item.ItemBlock@681061d6 (req. id 61)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFurnace@6fbb4061 for ItemBlock net.minecraft.item.ItemBlock@53d6e959 at id 62, original id requested: 62
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_furnace 62 net.minecraft.item.ItemBlock@53d6e959 (req. id 62)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockLadder@68a78f3c for ItemBlock net.minecraft.item.ItemBlock@3caee3a8 at id 65, original id requested: 65
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:ladder 65 net.minecraft.item.ItemBlock@3caee3a8 (req. id 65)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRail@5f96f6a2 for ItemBlock net.minecraft.item.ItemBlock@69a40b3c at id 66, original id requested: 66
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:rail 66 net.minecraft.item.ItemBlock@69a40b3c (req. id 66)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@48eb001a for ItemBlock net.minecraft.item.ItemBlock@251c90f at id 67, original id requested: 67
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_stairs 67 net.minecraft.item.ItemBlock@251c90f (req. id 67)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockLever@44d64d4e for ItemBlock net.minecraft.item.ItemBlock@6629643d at id 69, original id requested: 69
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lever 69 net.minecraft.item.ItemBlock@6629643d (req. id 69)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPressurePlate@7c52fc81 for ItemBlock net.minecraft.item.ItemBlock@2dd178f3 at id 70, original id requested: 70
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_pressure_plate 70 net.minecraft.item.ItemBlock@2dd178f3 (req. id 70)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPressurePlate@2e766822 for ItemBlock net.minecraft.item.ItemBlock@64656b9e at id 72, original id requested: 72
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_pressure_plate 72 net.minecraft.item.ItemBlock@64656b9e (req. id 72)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedstoneOre@10a98392 for ItemBlock net.minecraft.item.ItemBlock@6870cfac at id 73, original id requested: 73
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_ore 73 net.minecraft.item.ItemBlock@6870cfac (req. id 73)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedstoneTorch@2f894ad9 for ItemBlock net.minecraft.item.ItemBlock@45554613 at id 76, original id requested: 76
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_torch 76 net.minecraft.item.ItemBlock@45554613 (req. id 76)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockButtonStone@56382bc9 for ItemBlock net.minecraft.item.ItemBlock@63e5b8aa at id 77, original id requested: 77
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_button 77 net.minecraft.item.ItemBlock@63e5b8aa (req. id 77)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSnow@542f6803 for ItemBlock net.minecraft.item.ItemSnow@2c9306d3 at id 78, original id requested: 78
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:snow_layer 78 net.minecraft.item.ItemSnow@2c9306d3 (req. id 78)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockIce@40230eb9 for ItemBlock net.minecraft.item.ItemBlock@4270b142 at id 79, original id requested: 79
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:ice 79 net.minecraft.item.ItemBlock@4270b142 (req. id 79)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSnowBlock@2a39aa2b for ItemBlock net.minecraft.item.ItemBlock@2dfa02c1 at id 80, original id requested: 80
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:snow 80 net.minecraft.item.ItemBlock@2dfa02c1 (req. id 80)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCactus@2fd954f for ItemBlock net.minecraft.item.ItemBlock@6314df3c at id 81, original id requested: 81
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:cactus 81 net.minecraft.item.ItemBlock@6314df3c (req. id 81)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockClay@60dd0587 for ItemBlock net.minecraft.item.ItemBlock@5785e813 at id 82, original id requested: 82
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:clay 82 net.minecraft.item.ItemBlock@5785e813 (req. id 82)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockJukebox@58d6e55a for ItemBlock net.minecraft.item.ItemBlock@10b8b900 at id 84, original id requested: 84
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:jukebox 84 net.minecraft.item.ItemBlock@10b8b900 (req. id 84)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@47e51549 for ItemBlock net.minecraft.item.ItemBlock@6d294ddc at id 85, original id requested: 85
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:fence 85 net.minecraft.item.ItemBlock@6d294ddc (req. id 85)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@632383b9 for ItemBlock net.minecraft.item.ItemBlock@2801827a at id 188, original id requested: 188
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_fence 188 net.minecraft.item.ItemBlock@2801827a (req. id 188)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@3a0aaaf0 for ItemBlock net.minecraft.item.ItemBlock@50bc3219 at id 189, original id requested: 189
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_fence 189 net.minecraft.item.ItemBlock@50bc3219 (req. id 189)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@764fffa0 for ItemBlock net.minecraft.item.ItemBlock@599f1b7 at id 190, original id requested: 190
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_fence 190 net.minecraft.item.ItemBlock@599f1b7 (req. id 190)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@8840c98 for ItemBlock net.minecraft.item.ItemBlock@22791b75 at id 191, original id requested: 191
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_fence 191 net.minecraft.item.ItemBlock@22791b75 (req. id 191)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@5e599100 for ItemBlock net.minecraft.item.ItemBlock@64f4f12 at id 192, original id requested: 192
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_fence 192 net.minecraft.item.ItemBlock@64f4f12 (req. id 192)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPumpkin@1084f78c for ItemBlock net.minecraft.item.ItemBlock@37d28938 at id 86, original id requested: 86
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:pumpkin 86 net.minecraft.item.ItemBlock@37d28938 (req. id 86)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockNetherrack@27be17c8 for ItemBlock net.minecraft.item.ItemBlock@7d0cd23c at id 87, original id requested: 87
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:netherrack 87 net.minecraft.item.ItemBlock@7d0cd23c (req. id 87)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSoulSand@1e95b653 for ItemBlock net.minecraft.item.ItemBlock@17c4dc5b at id 88, original id requested: 88
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:soul_sand 88 net.minecraft.item.ItemBlock@17c4dc5b (req. id 88)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGlowstone@3df1a1ac for ItemBlock net.minecraft.item.ItemBlock@6b0f266e at id 89, original id requested: 89
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:glowstone 89 net.minecraft.item.ItemBlock@6b0f266e (req. id 89)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPumpkin@7d979d34 for ItemBlock net.minecraft.item.ItemBlock@4837f97e at id 91, original id requested: 91
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lit_pumpkin 91 net.minecraft.item.ItemBlock@4837f97e (req. id 91)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTrapDoor@6824b913 for ItemBlock net.minecraft.item.ItemBlock@53314f76 at id 96, original id requested: 96
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:trapdoor 96 net.minecraft.item.ItemBlock@53314f76 (req. id 96)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSilverfish@1015a4b9 for ItemBlock net.minecraft.item.ItemMultiTexture@5e905f2c at id 97, original id requested: 97
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:monster_egg 97 net.minecraft.item.ItemMultiTexture@5e905f2c (req. id 97)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStoneBrick@7e83992 for ItemBlock net.minecraft.item.ItemMultiTexture@7b9088f2 at id 98, original id requested: 98
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stonebrick 98 net.minecraft.item.ItemMultiTexture@7b9088f2 (req. id 98)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHugeMushroom@4eb9f2af for ItemBlock net.minecraft.item.ItemBlock@1a914089 at id 99, original id requested: 99
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:brown_mushroom_block 99 net.minecraft.item.ItemBlock@1a914089 (req. id 99)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHugeMushroom@44fdce3c for ItemBlock net.minecraft.item.ItemBlock@43d76a92 at id 100, original id requested: 100
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_mushroom_block 100 net.minecraft.item.ItemBlock@43d76a92 (req. id 100)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPane@1e977098 for ItemBlock net.minecraft.item.ItemBlock@4a2bf50f at id 101, original id requested: 101
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_bars 101 net.minecraft.item.ItemBlock@4a2bf50f (req. id 101)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPane@7f4701b1 for ItemBlock net.minecraft.item.ItemBlock@350323a0 at id 102, original id requested: 102
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:glass_pane 102 net.minecraft.item.ItemBlock@350323a0 (req. id 102)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMelon@76fe6cdc for ItemBlock net.minecraft.item.ItemBlock@2506b881 at id 103, original id requested: 103
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:melon_block 103 net.minecraft.item.ItemBlock@2506b881 (req. id 103)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockVine@46911148 for ItemBlock net.minecraft.item.ItemColored@5d7dd549 at id 106, original id requested: 106
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:vine 106 net.minecraft.item.ItemColored@5d7dd549 (req. id 106)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@14924f41 for ItemBlock net.minecraft.item.ItemBlock@486bd064 at id 107, original id requested: 107
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:fence_gate 107 net.minecraft.item.ItemBlock@486bd064 (req. id 107)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@149274cb for ItemBlock net.minecraft.item.ItemBlock@6459f4ea at id 183, original id requested: 183
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_fence_gate 183 net.minecraft.item.ItemBlock@6459f4ea (req. id 183)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@61037caf for ItemBlock net.minecraft.item.ItemBlock@740b9a50 at id 184, original id requested: 184
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_fence_gate 184 net.minecraft.item.ItemBlock@740b9a50 (req. id 184)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@101cf747 for ItemBlock net.minecraft.item.ItemBlock@476fde05 at id 185, original id requested: 185
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_fence_gate 185 net.minecraft.item.ItemBlock@476fde05 (req. id 185)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@224c7de4 for ItemBlock net.minecraft.item.ItemBlock@5111de7c at id 186, original id requested: 186
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_fence_gate 186 net.minecraft.item.ItemBlock@5111de7c (req. id 186)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFenceGate@2e0fdbe9 for ItemBlock net.minecraft.item.ItemBlock@7ac48e10 at id 187, original id requested: 187
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_fence_gate 187 net.minecraft.item.ItemBlock@7ac48e10 (req. id 187)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@2f10f633 for ItemBlock net.minecraft.item.ItemBlock@52354202 at id 108, original id requested: 108
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:brick_stairs 108 net.minecraft.item.ItemBlock@52354202 (req. id 108)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@7cfac39f for ItemBlock net.minecraft.item.ItemBlock@6b1321b7 at id 109, original id requested: 109
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_brick_stairs 109 net.minecraft.item.ItemBlock@6b1321b7 (req. id 109)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockMycelium@32eae6f2 for ItemBlock net.minecraft.item.ItemBlock@342ee097 at id 110, original id requested: 110
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:mycelium 110 net.minecraft.item.ItemBlock@342ee097 (req. id 110)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockLilyPad@483b0690 for ItemBlock net.minecraft.item.ItemLilyPad@6ac45c0c at id 111, original id requested: 111
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:waterlily 111 net.minecraft.item.ItemLilyPad@6ac45c0c (req. id 111)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockNetherBrick@4debbf0 for ItemBlock net.minecraft.item.ItemBlock@12192604 at id 112, original id requested: 112
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick 112 net.minecraft.item.ItemBlock@12192604 (req. id 112)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockFence@60e06f7d for ItemBlock net.minecraft.item.ItemBlock@6075b369 at id 113, original id requested: 113
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick_fence 113 net.minecraft.item.ItemBlock@6075b369 (req. id 113)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@787508ca for ItemBlock net.minecraft.item.ItemBlock@231cdda8 at id 114, original id requested: 114
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_brick_stairs 114 net.minecraft.item.ItemBlock@231cdda8 (req. id 114)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockEnchantmentTable@12c0c0b3 for ItemBlock net.minecraft.item.ItemBlock@6b70d1fb at id 116, original id requested: 116
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:enchanting_table 116 net.minecraft.item.ItemBlock@6b70d1fb (req. id 116)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockEndPortalFrame@fe87ddd for ItemBlock net.minecraft.item.ItemBlock@3002e397 at id 120, original id requested: 120
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:end_portal_frame 120 net.minecraft.item.ItemBlock@3002e397 (req. id 120)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@7f9e8421 for ItemBlock net.minecraft.item.ItemBlock@7da1e005 at id 121, original id requested: 121
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:end_stone 121 net.minecraft.item.ItemBlock@7da1e005 (req. id 121)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDragonEgg@45545e7a for ItemBlock net.minecraft.item.ItemBlock@38159384 at id 122, original id requested: 122
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dragon_egg 122 net.minecraft.item.ItemBlock@38159384 (req. id 122)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedstoneLight@7e62cfa3 for ItemBlock net.minecraft.item.ItemBlock@55877274 at id 123, original id requested: 123
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_lamp 123 net.minecraft.item.ItemBlock@55877274 (req. id 123)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHalfWoodSlab@5e13f156 for ItemBlock net.minecraft.item.ItemSlab@723e2d08 at id 126, original id requested: 126
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_slab 126 net.minecraft.item.ItemSlab@723e2d08 (req. id 126)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@568750b7 for ItemBlock net.minecraft.item.ItemBlock@6d4a82 at id 128, original id requested: 128
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sandstone_stairs 128 net.minecraft.item.ItemBlock@6d4a82 (req. id 128)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@67b355c8 for ItemBlock net.minecraft.item.ItemBlock@14f060b8 at id 129, original id requested: 129
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:emerald_ore 129 net.minecraft.item.ItemBlock@14f060b8 (req. id 129)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockEnderChest@3cd26422 for ItemBlock net.minecraft.item.ItemBlock@7a0ab480 at id 130, original id requested: 130
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:ender_chest 130 net.minecraft.item.ItemBlock@7a0ab480 (req. id 130)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTripWireHook@65bb6275 for ItemBlock net.minecraft.item.ItemBlock@79df80a4 at id 131, original id requested: 131
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:tripwire_hook 131 net.minecraft.item.ItemBlock@79df80a4 (req. id 131)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressed@7bc6935c for ItemBlock net.minecraft.item.ItemBlock@130cfc47 at id 133, original id requested: 133
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:emerald_block 133 net.minecraft.item.ItemBlock@130cfc47 (req. id 133)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@4cc7d00d for ItemBlock net.minecraft.item.ItemBlock@4eeab3e at id 134, original id requested: 134
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_stairs 134 net.minecraft.item.ItemBlock@4eeab3e (req. id 134)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@43cb5f38 for ItemBlock net.minecraft.item.ItemBlock@2b6fb197 at id 135, original id requested: 135
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_stairs 135 net.minecraft.item.ItemBlock@2b6fb197 (req. id 135)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@f557c37 for ItemBlock net.minecraft.item.ItemBlock@2eb0cefe at id 136, original id requested: 136
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_stairs 136 net.minecraft.item.ItemBlock@2eb0cefe (req. id 136)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCommandBlock@5a1f778 for ItemBlock net.minecraft.item.ItemBlock@5a2ae1ab at id 137, original id requested: 137
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:command_block 137 net.minecraft.item.ItemBlock@5a2ae1ab (req. id 137)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockBeacon@4a50d04a for ItemBlock net.minecraft.item.ItemBlock@2bec068b at id 138, original id requested: 138
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:beacon 138 net.minecraft.item.ItemBlock@2bec068b (req. id 138)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockWall@76ff68c5 for ItemBlock net.minecraft.item.ItemMultiTexture@138f0661 at id 139, original id requested: 139
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:cobblestone_wall 139 net.minecraft.item.ItemMultiTexture@138f0661 (req. id 139)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockButtonWood@61cda923 for ItemBlock net.minecraft.item.ItemBlock@212fafd1 at id 143, original id requested: 143
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_button 143 net.minecraft.item.ItemBlock@212fafd1 (req. id 143)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockAnvil@7f42e06e for ItemBlock net.minecraft.item.ItemAnvilBlock@7e3d2ebd at id 145, original id requested: 145
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:anvil 145 net.minecraft.item.ItemAnvilBlock@7e3d2ebd (req. id 145)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockChest@4db77402 for ItemBlock net.minecraft.item.ItemBlock@2b43f314 at id 146, original id requested: 146
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:trapped_chest 146 net.minecraft.item.ItemBlock@2b43f314 (req. id 146)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPressurePlateWeighted@1bbddada for ItemBlock net.minecraft.item.ItemBlock@3a4a5f3c at id 147, original id requested: 147
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:light_weighted_pressure_plate 147 net.minecraft.item.ItemBlock@3a4a5f3c (req. id 147)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPressurePlateWeighted@22da2fe6 for ItemBlock net.minecraft.item.ItemBlock@4f3356c0 at id 148, original id requested: 148
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:heavy_weighted_pressure_plate 148 net.minecraft.item.ItemBlock@4f3356c0 (req. id 148)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDaylightDetector@69f2cb04 for ItemBlock net.minecraft.item.ItemBlock@586cc15d at id 151, original id requested: 151
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:daylight_detector 151 net.minecraft.item.ItemBlock@586cc15d (req. id 151)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCompressedPowered@3f8dfe74 for ItemBlock net.minecraft.item.ItemBlock@6c835217 at id 152, original id requested: 152
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone_block 152 net.minecraft.item.ItemBlock@6c835217 (req. id 152)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockOre@1a950fdd for ItemBlock net.minecraft.item.ItemBlock@4584304 at id 153, original id requested: 153
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_ore 153 net.minecraft.item.ItemBlock@4584304 (req. id 153)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHopper@364fd4ae for ItemBlock net.minecraft.item.ItemBlock@51888019 at id 154, original id requested: 154
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:hopper 154 net.minecraft.item.ItemBlock@51888019 (req. id 154)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockQuartz@3f9b7fe1 for ItemBlock net.minecraft.item.ItemMultiTexture@6f50d55c at id 155, original id requested: 155
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_block 155 net.minecraft.item.ItemMultiTexture@6f50d55c (req. id 155)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@ea7a4c3 for ItemBlock net.minecraft.item.ItemBlock@19b5214b at id 156, original id requested: 156
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz_stairs 156 net.minecraft.item.ItemBlock@19b5214b (req. id 156)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRailPowered@2ce03e86 for ItemBlock net.minecraft.item.ItemBlock@5fb3111a at id 157, original id requested: 157
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:activator_rail 157 net.minecraft.item.ItemBlock@5fb3111a (req. id 157)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDropper@23ca36d for ItemBlock net.minecraft.item.ItemBlock@4aaecabd at id 158, original id requested: 158
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dropper 158 net.minecraft.item.ItemBlock@4aaecabd (req. id 158)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockColored@42e4e589 for ItemBlock net.minecraft.item.ItemCloth@23bd0c81 at id 159, original id requested: 159
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_hardened_clay 159 net.minecraft.item.ItemCloth@23bd0c81 (req. id 159)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockBarrier@2f995afc for ItemBlock net.minecraft.item.ItemBlock@1332dec4 at id 166, original id requested: 166
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:barrier 166 net.minecraft.item.ItemBlock@1332dec4 (req. id 166)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockTrapDoor@9df564f for ItemBlock net.minecraft.item.ItemBlock@544e3679 at id 167, original id requested: 167
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_trapdoor 167 net.minecraft.item.ItemBlock@544e3679 (req. id 167)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHay@5460edd3 for ItemBlock net.minecraft.item.ItemBlock@6889f56f at id 170, original id requested: 170
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:hay_block 170 net.minecraft.item.ItemBlock@6889f56f (req. id 170)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCarpet@1c046c92 for ItemBlock net.minecraft.item.ItemCloth@231b35fb at id 171, original id requested: 171
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:carpet 171 net.minecraft.item.ItemCloth@231b35fb (req. id 171)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHardenedClay@2f3928ac for ItemBlock net.minecraft.item.ItemBlock@26da1ba2 at id 172, original id requested: 172
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:hardened_clay 172 net.minecraft.item.ItemBlock@26da1ba2 (req. id 172)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.Block@31834a2b for ItemBlock net.minecraft.item.ItemBlock@3820cfe at id 173, original id requested: 173
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:coal_block 173 net.minecraft.item.ItemBlock@3820cfe (req. id 173)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPackedIce@9cfc77 for ItemBlock net.minecraft.item.ItemBlock@2407a36c at id 174, original id requested: 174
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:packed_ice 174 net.minecraft.item.ItemBlock@2407a36c (req. id 174)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@6097fca9 for ItemBlock net.minecraft.item.ItemBlock@5ec9eefa at id 163, original id requested: 163
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_stairs 163 net.minecraft.item.ItemBlock@5ec9eefa (req. id 163)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@63f40ca0 for ItemBlock net.minecraft.item.ItemBlock@28b8f98a at id 164, original id requested: 164
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_stairs 164 net.minecraft.item.ItemBlock@28b8f98a (req. id 164)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSlime@6b63abdc for ItemBlock net.minecraft.item.ItemBlock@3b4ef59f at id 165, original id requested: 165
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:slime 165 net.minecraft.item.ItemBlock@3b4ef59f (req. id 165)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockDoublePlant@217235f5 for ItemBlock net.minecraft.item.ItemDoublePlant@5a7b309b at id 175, original id requested: 175
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:double_plant 175 net.minecraft.item.ItemDoublePlant@5a7b309b (req. id 175)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStainedGlass@40fa8766 for ItemBlock net.minecraft.item.ItemCloth@4602f874 at id 95, original id requested: 95
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_glass 95 net.minecraft.item.ItemCloth@4602f874 (req. id 95)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStainedGlassPane@aa61e4e for ItemBlock net.minecraft.item.ItemCloth@7739aac4 at id 160, original id requested: 160
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stained_glass_pane 160 net.minecraft.item.ItemCloth@7739aac4 (req. id 160)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockPrismarine@3375ebd3 for ItemBlock net.minecraft.item.ItemMultiTexture@5d850a25 at id 168, original id requested: 168
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:prismarine 168 net.minecraft.item.ItemMultiTexture@5d850a25 (req. id 168)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockSeaLantern@724bf25f for ItemBlock net.minecraft.item.ItemBlock@b022551 at id 169, original id requested: 169
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sea_lantern 169 net.minecraft.item.ItemBlock@b022551 (req. id 169)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockRedSandstone@243bf087 for ItemBlock net.minecraft.item.ItemMultiTexture@31ab1e67 at id 179, original id requested: 179
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_sandstone 179 net.minecraft.item.ItemMultiTexture@31ab1e67 (req. id 179)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockStairs@781aff8b for ItemBlock net.minecraft.item.ItemBlock@29bbc391 at id 180, original id requested: 180
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:red_sandstone_stairs 180 net.minecraft.item.ItemBlock@29bbc391 (req. id 180)
+[20:09:32] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockHalfStoneSlabNew@6ffd4c0d for ItemBlock net.minecraft.item.ItemSlab@3487442d at id 182, original id requested: 182
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_slab2 182 net.minecraft.item.ItemSlab@3487442d (req. id 182)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_shovel 256 net.minecraft.item.ItemSpade@5b8853 (req. id 256)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_pickaxe 257 net.minecraft.item.ItemPickaxe@1b8aaeab (req. id 257)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_axe 258 net.minecraft.item.ItemAxe@5d1bdd4a (req. id 258)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:flint_and_steel 259 net.minecraft.item.ItemFlintAndSteel@7994a0d1 (req. id 259)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:apple 260 net.minecraft.item.ItemFood@1df9186f (req. id 260)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bow 261 net.minecraft.item.ItemBow@595f9916 (req. id 261)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:arrow 262 net.minecraft.item.Item@2055833f (req. id 262)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:coal 263 net.minecraft.item.ItemCoal@18ffca6c (req. id 263)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond 264 net.minecraft.item.Item@46468f0 (req. id 264)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_ingot 265 net.minecraft.item.Item@5f8f1712 (req. id 265)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_ingot 266 net.minecraft.item.Item@34a6d9db (req. id 266)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_sword 267 net.minecraft.item.ItemSword@5012c571 (req. id 267)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_sword 268 net.minecraft.item.ItemSword@6486fe7b (req. id 268)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_shovel 269 net.minecraft.item.ItemSpade@511da44f (req. id 269)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_pickaxe 270 net.minecraft.item.ItemPickaxe@4645679e (req. id 270)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_axe 271 net.minecraft.item.ItemAxe@3a0b6a (req. id 271)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_sword 272 net.minecraft.item.ItemSword@539c4830 (req. id 272)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_shovel 273 net.minecraft.item.ItemSpade@6f1fa1d0 (req. id 273)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_pickaxe 274 net.minecraft.item.ItemPickaxe@28b523a (req. id 274)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_axe 275 net.minecraft.item.ItemAxe@52ba685a (req. id 275)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_sword 276 net.minecraft.item.ItemSword@63d677f5 (req. id 276)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_shovel 277 net.minecraft.item.ItemSpade@71d55b7e (req. id 277)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_pickaxe 278 net.minecraft.item.ItemPickaxe@2997ddfc (req. id 278)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_axe 279 net.minecraft.item.ItemAxe@28ee882c (req. id 279)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stick 280 net.minecraft.item.Item@78d73b1b (req. id 280)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bowl 281 net.minecraft.item.Item@238291d4 (req. id 281)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:mushroom_stew 282 net.minecraft.item.ItemSoup@1eeb5818 (req. id 282)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_sword 283 net.minecraft.item.ItemSword@44dfdd58 (req. id 283)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_shovel 284 net.minecraft.item.ItemSpade@58d4238e (req. id 284)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_pickaxe 285 net.minecraft.item.ItemPickaxe@72a8361b (req. id 285)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_axe 286 net.minecraft.item.ItemAxe@36478bce (req. id 286)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:string 287 net.minecraft.item.ItemReed@4cc12db2 (req. id 287)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:feather 288 net.minecraft.item.Item@5ea7bc4 (req. id 288)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:gunpowder 289 net.minecraft.item.Item@231df705 (req. id 289)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_hoe 290 net.minecraft.item.ItemHoe@55296b50 (req. id 290)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:stone_hoe 291 net.minecraft.item.ItemHoe@60591e1b (req. id 291)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_hoe 292 net.minecraft.item.ItemHoe@29c53c4f (req. id 292)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_hoe 293 net.minecraft.item.ItemHoe@3009eed7 (req. id 293)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_hoe 294 net.minecraft.item.ItemHoe@2ee4706d (req. id 294)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wheat_seeds 295 net.minecraft.item.ItemSeeds@74a820bf (req. id 295)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wheat 296 net.minecraft.item.Item@5a30722c (req. id 296)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bread 297 net.minecraft.item.ItemFood@4f2ac7e0 (req. id 297)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leather_helmet 298 net.minecraft.item.ItemArmor@7f4a1cac (req. id 298)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leather_chestplate 299 net.minecraft.item.ItemArmor@4a1a412e (req. id 299)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leather_leggings 300 net.minecraft.item.ItemArmor@c568f91 (req. id 300)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:leather_boots 301 net.minecraft.item.ItemArmor@5fd43e58 (req. id 301)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:chainmail_helmet 302 net.minecraft.item.ItemArmor@70d4f672 (req. id 302)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:chainmail_chestplate 303 net.minecraft.item.ItemArmor@68dfda77 (req. id 303)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:chainmail_leggings 304 net.minecraft.item.ItemArmor@50cdfafa (req. id 304)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:chainmail_boots 305 net.minecraft.item.ItemArmor@2e952845 (req. id 305)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_helmet 306 net.minecraft.item.ItemArmor@79252c83 (req. id 306)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_chestplate 307 net.minecraft.item.ItemArmor@6fbf5db2 (req. id 307)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_leggings 308 net.minecraft.item.ItemArmor@509a6095 (req. id 308)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_boots 309 net.minecraft.item.ItemArmor@57cabdc3 (req. id 309)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_helmet 310 net.minecraft.item.ItemArmor@75bd28d (req. id 310)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_chestplate 311 net.minecraft.item.ItemArmor@129c4d19 (req. id 311)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_leggings 312 net.minecraft.item.ItemArmor@11810917 (req. id 312)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_boots 313 net.minecraft.item.ItemArmor@13278a41 (req. id 313)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_helmet 314 net.minecraft.item.ItemArmor@4a31ed12 (req. id 314)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_chestplate 315 net.minecraft.item.ItemArmor@3ab595c8 (req. id 315)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_leggings 316 net.minecraft.item.ItemArmor@2365ea38 (req. id 316)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_boots 317 net.minecraft.item.ItemArmor@cbf1997 (req. id 317)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:flint 318 net.minecraft.item.Item@49232c6f (req. id 318)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:porkchop 319 net.minecraft.item.ItemFood@5faeeb56 (req. id 319)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_porkchop 320 net.minecraft.item.ItemFood@5396eeb1 (req. id 320)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:painting 321 net.minecraft.item.ItemHangingEntity@a3cba3a (req. id 321)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_apple 322 net.minecraft.item.ItemAppleGold@7d133fb7 (req. id 322)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:sign 323 net.minecraft.item.ItemSign@5e3db14 (req. id 323)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:wooden_door 324 net.minecraft.item.ItemDoor@5c448ef (req. id 324)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:bucket 325 net.minecraft.item.ItemBucket@50e5032c (req. id 325)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:water_bucket 326 net.minecraft.item.ItemBucket@545d2560 (req. id 326)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:lava_bucket 327 net.minecraft.item.ItemBucket@124eb83d (req. id 327)
+[20:09:32] [Client thread/TRACE] [FML/]: Registry add: minecraft:minecart 328 net.minecraft.item.ItemMinecart@3079c26a (req. id 328)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:saddle 329 net.minecraft.item.ItemSaddle@203e705e (req. id 329)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_door 330 net.minecraft.item.ItemDoor@78c74647 (req. id 330)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:redstone 331 net.minecraft.item.ItemRedstone@46bb0bdf (req. id 331)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:snowball 332 net.minecraft.item.ItemSnowball@78d92eef (req. id 332)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:boat 333 net.minecraft.item.ItemBoat@454bcbbf (req. id 333)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:leather 334 net.minecraft.item.Item@2c9fdb64 (req. id 334)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:milk_bucket 335 net.minecraft.item.ItemBucketMilk@55a0f011 (req. id 335)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:brick 336 net.minecraft.item.Item@7ea42c82 (req. id 336)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:clay_ball 337 net.minecraft.item.Item@39133244 (req. id 337)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:reeds 338 net.minecraft.item.ItemReed@ceb7701 (req. id 338)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:paper 339 net.minecraft.item.Item@5e193ef5 (req. id 339)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:book 340 net.minecraft.item.ItemBook@61da0413 (req. id 340)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:slime_ball 341 net.minecraft.item.Item@5627cb29 (req. id 341)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:chest_minecart 342 net.minecraft.item.ItemMinecart@4d4c1ba9 (req. id 342)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:furnace_minecart 343 net.minecraft.item.ItemMinecart@2017f6e6 (req. id 343)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:egg 344 net.minecraft.item.ItemEgg@755a7218 (req. id 344)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:compass 345 net.minecraft.item.Item@70c29356 (req. id 345)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:fishing_rod 346 net.minecraft.item.ItemFishingRod@6238d5e0 (req. id 346)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:clock 347 net.minecraft.item.Item@336f49a1 (req. id 347)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:glowstone_dust 348 net.minecraft.item.Item@2c8b8de0 (req. id 348)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:fish 349 net.minecraft.item.ItemFishFood@527937d0 (req. id 349)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_fish 350 net.minecraft.item.ItemFishFood@36d582cb (req. id 350)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:dye 351 net.minecraft.item.ItemDye@d25e878 (req. id 351)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:bone 352 net.minecraft.item.Item@47187f50 (req. id 352)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:sugar 353 net.minecraft.item.Item@78116659 (req. id 353)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cake 354 net.minecraft.item.ItemReed@712e787e (req. id 354)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:bed 355 net.minecraft.item.ItemBed@26b3c9a2 (req. id 355)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:repeater 356 net.minecraft.item.ItemReed@241b971f (req. id 356)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cookie 357 net.minecraft.item.ItemFood@125f16b2 (req. id 357)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:filled_map 358 net.minecraft.item.ItemMap@935493d (req. id 358)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:shears 359 net.minecraft.item.ItemShears@1eb85a47 (req. id 359)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:melon 360 net.minecraft.item.ItemFood@ca7e37f (req. id 360)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:pumpkin_seeds 361 net.minecraft.item.ItemSeeds@99a8de3 (req. id 361)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:melon_seeds 362 net.minecraft.item.ItemSeeds@87f501f (req. id 362)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:beef 363 net.minecraft.item.ItemFood@54495935 (req. id 363)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_beef 364 net.minecraft.item.ItemFood@67c6f4d8 (req. id 364)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:chicken 365 net.minecraft.item.ItemFood@3a6e9856 (req. id 365)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_chicken 366 net.minecraft.item.ItemFood@4863c8ac (req. id 366)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:rotten_flesh 367 net.minecraft.item.ItemFood@56fda064 (req. id 367)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:ender_pearl 368 net.minecraft.item.ItemEnderPearl@1e56bc9b (req. id 368)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:blaze_rod 369 net.minecraft.item.Item@6f3bd37f (req. id 369)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:ghast_tear 370 net.minecraft.item.Item@403364e9 (req. id 370)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:gold_nugget 371 net.minecraft.item.Item@447521e (req. id 371)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_wart 372 net.minecraft.item.ItemSeeds@2fde9469 (req. id 372)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:potion 373 net.minecraft.item.ItemPotion@20cff21e (req. id 373)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:glass_bottle 374 net.minecraft.item.ItemGlassBottle@6cc48a17 (req. id 374)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:spider_eye 375 net.minecraft.item.ItemFood@289f15e9 (req. id 375)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:fermented_spider_eye 376 net.minecraft.item.Item@7f22687e (req. id 376)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:blaze_powder 377 net.minecraft.item.Item@6af87130 (req. id 377)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:magma_cream 378 net.minecraft.item.Item@22a4ca4a (req. id 378)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:brewing_stand 379 net.minecraft.item.ItemReed@72c4a3aa (req. id 379)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cauldron 380 net.minecraft.item.ItemReed@1e495414 (req. id 380)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:ender_eye 381 net.minecraft.item.ItemEnderEye@2f09e6b2 (req. id 381)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:speckled_melon 382 net.minecraft.item.Item@1bee0085 (req. id 382)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:spawn_egg 383 net.minecraft.item.ItemMonsterPlacer@18a98913 (req. id 383)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:experience_bottle 384 net.minecraft.item.ItemExpBottle@656c5c3 (req. id 384)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:fire_charge 385 net.minecraft.item.ItemFireball@242ff747 (req. id 385)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:writable_book 386 net.minecraft.item.ItemWritableBook@2c7c0e36 (req. id 386)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:written_book 387 net.minecraft.item.ItemEditableBook@37ca3ca8 (req. id 387)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:emerald 388 net.minecraft.item.Item@191ec193 (req. id 388)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:item_frame 389 net.minecraft.item.ItemHangingEntity@6321a5aa (req. id 389)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:flower_pot 390 net.minecraft.item.ItemReed@1c7f9861 (req. id 390)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:carrot 391 net.minecraft.item.ItemSeedFood@1b7554d4 (req. id 391)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:potato 392 net.minecraft.item.ItemSeedFood@57ce2898 (req. id 392)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:baked_potato 393 net.minecraft.item.ItemFood@1ea930eb (req. id 393)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:poisonous_potato 394 net.minecraft.item.ItemFood@2e0ad709 (req. id 394)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:map 395 net.minecraft.item.ItemEmptyMap@16f7f59f (req. id 395)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_carrot 396 net.minecraft.item.ItemFood@4ee8051c (req. id 396)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:skull 397 net.minecraft.item.ItemSkull@743d0d44 (req. id 397)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:carrot_on_a_stick 398 net.minecraft.item.ItemCarrotOnAStick@123307c4 (req. id 398)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:nether_star 399 net.minecraft.item.ItemSimpleFoiled@54ccb3 (req. id 399)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:pumpkin_pie 400 net.minecraft.item.ItemFood@9b2dc56 (req. id 400)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:fireworks 401 net.minecraft.item.ItemFirework@48f2054d (req. id 401)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:firework_charge 402 net.minecraft.item.ItemFireworkCharge@774d8276 (req. id 402)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:enchanted_book 403 net.minecraft.item.ItemEnchantedBook@76a9a009 (req. id 403)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:comparator 404 net.minecraft.item.ItemReed@9785903 (req. id 404)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:netherbrick 405 net.minecraft.item.Item@34009349 (req. id 405)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:quartz 406 net.minecraft.item.Item@3f68a7f8 (req. id 406)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:tnt_minecart 407 net.minecraft.item.ItemMinecart@4faf1f4 (req. id 407)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:hopper_minecart 408 net.minecraft.item.ItemMinecart@4f811029 (req. id 408)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:prismarine_shard 409 net.minecraft.item.Item@7f2b584b (req. id 409)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:prismarine_crystals 410 net.minecraft.item.Item@5866731 (req. id 410)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:rabbit 411 net.minecraft.item.ItemFood@56a05324 (req. id 411)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_rabbit 412 net.minecraft.item.ItemFood@11e71181 (req. id 412)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:rabbit_stew 413 net.minecraft.item.ItemSoup@342beaf6 (req. id 413)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:rabbit_foot 414 net.minecraft.item.Item@222acad (req. id 414)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:rabbit_hide 415 net.minecraft.item.Item@56cfe6be (req. id 415)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:armor_stand 416 net.minecraft.item.ItemArmorStand@2abc55c4 (req. id 416)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:iron_horse_armor 417 net.minecraft.item.Item@4e958f08 (req. id 417)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:golden_horse_armor 418 net.minecraft.item.Item@71c0b742 (req. id 418)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:diamond_horse_armor 419 net.minecraft.item.Item@3bbb8c16 (req. id 419)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:lead 420 net.minecraft.item.ItemLead@7cd5fcf4 (req. id 420)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:name_tag 421 net.minecraft.item.ItemNameTag@7ec3a8bd (req. id 421)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:command_block_minecart 422 net.minecraft.item.ItemMinecart@9690008 (req. id 422)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:mutton 423 net.minecraft.item.ItemFood@42cf6349 (req. id 423)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:cooked_mutton 424 net.minecraft.item.ItemFood@79cb8ffa (req. id 424)
+[20:09:33] [Client thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockBanner$BlockBannerStanding@1d6a8386 for ItemBlock net.minecraft.item.ItemBanner@47fb7ec9 at id 176, original id requested: 425
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:banner 176 net.minecraft.item.ItemBanner@47fb7ec9 (req. id 176)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:spruce_door 427 net.minecraft.item.ItemDoor@2f8c4fae (req. id 427)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:birch_door 428 net.minecraft.item.ItemDoor@4703c998 (req. id 428)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:jungle_door 429 net.minecraft.item.ItemDoor@71166348 (req. id 429)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:acacia_door 430 net.minecraft.item.ItemDoor@6d874695 (req. id 430)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:dark_oak_door 431 net.minecraft.item.ItemDoor@20bb85b4 (req. id 431)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_13 2256 net.minecraft.item.ItemRecord@10ed037a (req. id 2256)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_cat 2257 net.minecraft.item.ItemRecord@76e4212 (req. id 2257)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_blocks 2258 net.minecraft.item.ItemRecord@23121d14 (req. id 2258)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_chirp 2259 net.minecraft.item.ItemRecord@72af90e8 (req. id 2259)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_far 2260 net.minecraft.item.ItemRecord@aa1bb14 (req. id 2260)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_mall 2261 net.minecraft.item.ItemRecord@7faa0680 (req. id 2261)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_mellohi 2262 net.minecraft.item.ItemRecord@4c635edc (req. id 2262)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_stal 2263 net.minecraft.item.ItemRecord@4245bf68 (req. id 2263)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_strad 2264 net.minecraft.item.ItemRecord@45bbc52f (req. id 2264)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_ward 2265 net.minecraft.item.ItemRecord@6a8a551e (req. id 2265)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_11 2266 net.minecraft.item.ItemRecord@3cc9632d (req. id 2266)
+[20:09:33] [Client thread/TRACE] [FML/]: Registry add: minecraft:record_wait 2267 net.minecraft.item.ItemRecord@53982523 (req. id 2267)
+[20:09:56] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[20:09:56] [Client thread/INFO] [FML/]: MinecraftForge v11.14.0.1249 Initialized
+[20:09:56] [Client thread/INFO] [FML/]: Replaced 215 ore recipies
+[20:09:57] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[20:09:57] [Client thread/DEBUG] [FML/]: No config directory found, creating one: /Users/Scott/Desktop/Minestore/modding/Thaumic_Tanks/eclipse/config
+[20:09:57] [Client thread/INFO] [FML/]: Config directory created successfully
+[20:09:58] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[20:09:59] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/Scott/Desktop/Minestore/modding/Thaumic_Tanks/bin, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1249-1.8/snapshot_nodoc/20140930/forgeSrc-1.8-11.14.0.1249-1.8.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-xml_2.11/1.0.2/7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0/scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.15.Final/85cad5eb4fc8ae2ecc990dc7c411771a091ded5/netty-all-4.0.15.Final.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.17/893a8c553c0cfc9b6fbdff023747e30152ab09ec/authlib-1.5.17.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.5.5/40f178ca052bbe45681c529c40cae332a43cb3d5/realms-1.5.5.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /Users/Scott/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/Scott/.gradle/caches/minecraft/net/minecraftforge/forge/1.8-11.14.0.1249-1.8/start, examining for mod candidates
+[20:09:59] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[20:09:59] [Client thread/INFO] [FML/]: Searching /Users/Scott/Desktop/Minestore/modding/Thaumic_Tanks/eclipse/mods for mods
+[20:09:59] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[20:09:59] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
+[20:09:59] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8-11.14.0.1249-1.8.jar for potential mods
+[20:09:59] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8-11.14.0.1249-1.8.jar appears to be missing an mcmod.info file
+[20:10:05] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.11.jar for potential mods
+[20:10:05] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.11.jar appears to be missing an mcmod.info file
+[20:10:06] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[20:10:06] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[20:10:06] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[20:10:06] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[20:10:08] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[20:10:08] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[20:10:08] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[20:10:08] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[20:10:08] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[20:10:08] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[20:10:11] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[20:10:11] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[20:10:11] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[20:10:11] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[20:10:11] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[20:10:11] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[20:10:12] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[20:10:12] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[20:10:12] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[20:10:12] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[20:10:13] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[20:10:13] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[20:10:13] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[20:10:13] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[20:10:13] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[20:10:13] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[20:10:13] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.5.2.jar for potential mods
+[20:10:13] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.5.2.jar appears to be missing an mcmod.info file
+[20:10:13] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[20:10:13] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.6.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.6.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.15.Final.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.15.Final.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[20:10:14] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[20:10:14] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.17.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.17.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file realms-1.5.5.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container realms-1.5.5.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.2-nightly-20140822.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.2-nightly-20140822.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.2-nightly-20140822.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.2-nightly-20140822.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file twitch-6.5.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container twitch-6.5.jar appears to be missing an mcmod.info file
+[20:10:15] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[20:10:15] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-6.5-natives-windows-32.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-6.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-6.5-natives-windows-64.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-6.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-6.5-natives-osx.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-6.5-natives-osx.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[20:10:16] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[20:10:16] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[20:10:16] [Client thread/TRACE] [FML/]: Recursing into package net
+[20:10:16] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[20:10:16] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[20:10:16] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[20:10:16] [Client thread/TRACE] [FML/]: Received a system property request ''
+[20:10:16] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[20:10:16] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/fml/lang/en_US.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang af_ZA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/af_ZA.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ar_SA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ar_SA.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ca_ES in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ca_ES.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang cs_CZ in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/cs_CZ.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang da_DK in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/da_DK.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang de_DE in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/de_DE.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang el_GR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/el_GR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/en_US.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang es_ES in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/es_ES.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fa_IR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fa_IR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fi_FI in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fi_FI.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fr_FR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fr_FR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang he_IL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/he_IL.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang hu_HU in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/hu_HU.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang it_IT in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/it_IT.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ja_JP in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ja_JP.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ko_KR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ko_KR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nb_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nb_NO.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nl_NL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nl_NL.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nn_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nn_NO.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang no_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/no_NO.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pl_PL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pl_PL.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pt_BR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pt_BR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pt_PT in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pt_PT.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ro_RO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ro_RO.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ru_RU in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ru_RU.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang sr_SP in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/sr_SP.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang sv_SE in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/sv_SE.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang tr_TR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/tr_TR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang uk_UA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/uk_UA.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang vi_VN in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/vi_VN.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang zh_CN in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/zh_CN.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang zh_TW in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/zh_TW.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/minecraft/lang/en_US.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/fml/lang/en_US.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang af_ZA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/af_ZA.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ar_SA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ar_SA.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ca_ES in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ca_ES.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang cs_CZ in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/cs_CZ.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang da_DK in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/da_DK.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang de_DE in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/de_DE.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang el_GR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/el_GR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/en_US.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang es_ES in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/es_ES.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fa_IR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fa_IR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fi_FI in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fi_FI.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang fr_FR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/fr_FR.lang into language system
+[20:10:16] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang he_IL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/he_IL.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang hu_HU in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/hu_HU.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang it_IT in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/it_IT.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ja_JP in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ja_JP.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ko_KR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ko_KR.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nb_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nb_NO.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nl_NL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nl_NL.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang nn_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/nn_NO.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang no_NO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/no_NO.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pl_PL in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pl_PL.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pt_BR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pt_BR.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang pt_PT in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/pt_PT.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ro_RO in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ro_RO.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang ru_RU in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/ru_RU.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang sr_SP in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/sr_SP.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang sv_SE in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/sv_SE.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang tr_TR in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/tr_TR.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang uk_UA in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/uk_UA.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang vi_VN in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/vi_VN.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang zh_CN in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/zh_CN.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang zh_TW in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/forge/lang/zh_TW.lang into language system
+[20:10:17] [Client thread/DEBUG] [FML/]: Injecting found translation data for lang en_US in zip file forgeSrc-1.8-11.14.0.1249-1.8.jar at assets/minecraft/lang/en_US.lang into language system
+[20:10:17] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[20:10:17] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[20:10:17] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[20:10:17] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[20:10:17] [Client thread/DEBUG] [FML/]: Mod sorting data
+[20:10:17] [Client thread/DEBUG] [FML/]: No user mods found to sort
+[20:10:17] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[20:10:17] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[20:10:17] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[20:10:17] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[20:10:17] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[20:10:17] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.10.1249)
+[20:10:17] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[20:10:17] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:10:18] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[20:10:18] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[20:10:18] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[20:10:18] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[20:10:18] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.14.0.1249)
+[20:10:18] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[20:10:18] [Client thread/DEBUG] [FML/]: Mod signature data
+[20:10:18] [Client thread/DEBUG] [FML/]: 	mcp(Minecraft Coder Pack:9.05): minecraft.jar (NO VALID CERTIFICATE FOUND)
+[20:10:18] [Client thread/DEBUG] [FML/]: 	FML(Forge Mod Loader:8.0.10.1249): forgeSrc-1.8-11.14.0.1249-1.8.jar (NO VALID CERTIFICATE FOUND)
+[20:10:18] [Client thread/DEBUG] [FML/]: 	Forge(Minecraft Forge:11.14.0.1249): forgeSrc-1.8-11.14.0.1249-1.8.jar (NO VALID CERTIFICATE FOUND)
+[20:10:18] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[20:10:18] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[20:10:18] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[20:10:18] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[20:10:18] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[20:10:18] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[20:10:18] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[20:10:18] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[20:10:18] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[20:10:18] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[20:10:18] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[20:10:18] [Client thread/INFO] [FML/]: Applying holder lookups
+[20:10:18] [Client thread/INFO] [FML/]: Holder lookups applied
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[20:10:32] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[20:10:32] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[20:10:32] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[20:10:32] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[20:10:32] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[20:10:32] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[20:10:32] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[20:10:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[20:10:32] [Client thread/DEBUG] [FML/]: Registry consistency check successful
+[20:10:32] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 3 mods
+[20:10:39] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[20:10:39] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[20:11:41] [Netty Client IO #2/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:11:42] [Netty Client IO #0/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:11:42] [Netty Client IO #7/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:11:43] [Netty Client IO #7/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:11:43] [Netty Client IO #4/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:11:43] [Netty Client IO #3/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:13:00] [Netty Client IO #3/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:13:00] [Netty Client IO #1/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[20:13:00] [Netty Client IO #2/INFO] [FML/]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER

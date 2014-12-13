@@ -1,0 +1,8 @@
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(modid = , name = "Mine Up Reloaded", version = "0.1")
+public class MineUpReloadedmod
+{
+	
+
+}
