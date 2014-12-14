@@ -1,0 +1,7 @@
+.gradle
+build/
+eclipse/.metadata/
+mineup/
+
+# Ignore Gradle GUI config
+gradle-app.setting

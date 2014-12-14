@@ -1,7 +1,9 @@
 package world;
 
+import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraft.world.biome.WorldChunkManager;
 
 public class MineupWorld extends WorldType{
 
@@ -11,14 +13,8 @@ public class MineupWorld extends WorldType{
 	}
 	
 	@Override
-	public String getWorldTypeName()
-	{
-		return "MineUp";
-	}
-	
-	public BiomeGenBase[] getBiomesForWorldType()
-	{
-		return getBiomesForWorldType();
+	public WorldChunkManager getChunkManager(World world){
+		return new MineUpWorldChunkManager(world);
+		
 	}
 }
-
